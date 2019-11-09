@@ -33,7 +33,7 @@ echo ". edksetup.sh" > ~/.bashrc
 # ----start clang9 setup----
 
 # install prerequistion
-sudo apt-get install software-properties-common
+sudo apt-get -y install software-properties-common
 
 cd ~/src
 wget https://apt.llvm.org/llvm.sh
